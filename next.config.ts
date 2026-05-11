@@ -1,12 +1,15 @@
-const repoName = 'landingPage'
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+
+  basePath: '/landingPage',
+  assetPrefix: '/landingPage/',
+
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
