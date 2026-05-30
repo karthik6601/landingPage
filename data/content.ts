@@ -1,68 +1,63 @@
 export const content = {
   hero: {
     name: "Karthikeyan G",
-    tagline: "Decision Scientist | GenAI & Simulation Modeling",
-    description: "A results-driven Decision Scientist with hands-on experience across full-stack development, process automation, and Generative AI solutions. I bridge technology and business impact to create measurable value.",
+    tagline: "Decision Scientist | Backend Engineering, Automation & Gen AI",
+    description: "A results-driven Decision Scientist with 4 years of experience delivering scalable backend engineering, process automation, and applied Gen AI solutions for global telecom, energy, and financial enterprises.",
   },
   contact: {
-    mobile: "7904847117",
+    mobile: "+917904847117",
     email: "karthikeyan.Gurusamy6@gmail.com",
     linkedin: "https://www.linkedin.com/in/6karthikg",
     location: "Bengaluru, Karnataka, India"
   },
   skills: {
     tech: [
-      "Agent-based Simulation",
-      "Microservices",
-      "Full-stack Development",
-      "Generative AI & LLMs",
-      "RAG & LangChain",
-      "React & Node.js",
-      "FastAPI",
-      "Git"
+      "Python", "SQL",
+      "FastAPI", "Node.js", "gRPC", "REST", "Mesa",
+      "Apache Kafka",
+      "Azure DevOps", "Azure Databricks", "AWS",
+      "MSSQL", "MongoDB"
     ],
     domain: [
+      "Telecom",
       "Oil and Gas",
-      "Retail Promotions",
-      "Fintech"
+      "FinTech"
     ]
   },
-  summary: "A results-driven Decision Scientist with hands-on experience across full-stack development, process automation, and Generative AI solutions. My journey spans developing React–Node.js applications, automating large-scale reporting pipelines, and recently, designing GenAI-powered chatbots using GPT models with RAG and LangChain. I’ve delivered impactful solutions for leading telecom and oil & gas enterprises, enabling operational efficiency, innovation, and insight-driven decision-making. Recognized multiple times for ownership, consistency, and innovative problem-solving, I take pride in driving end-to-end delivery—whether it’s optimizing workflows, pioneering new approaches, or collaborating with diverse teams to bring ideas to life. I’m passionate about bridging technology and business impact—turning complex data and emerging tech into practical, scalable, and intelligent solutions that create measurable value.",
+  summary: "A results-driven Decision Scientist with 4 years of experience delivering scalable backend engineering, process automation, and applied Gen AI solutions for global telecom, energy, and financial enterprises. Specialized in architecting complex data simulation engines, building cloud-native microservices, and orchestrating high-throughput data pipelines. Skilled at translating intricate technical architectures into scalable data products that eliminate operational overhead and accelerate executive decision-making.",
   experience: [
     {
-      company: "Mu Sigma Inc.",
-      role: "Decision Scientist IV",
-      duration: "January 2026 - Present",
-      location: "Bengaluru",
-      description: "Designed and developed a simulation tool to model Oil & Gas industry scenarios in the US and support data-driven decision-making, building configurable pipelines and backend services using FastAPI to run multiple “what-if” simulations efficiently. Implemented data processing and domain-specific logic to generate accurate and consistent outputs, improving planning accuracy and reducing manual effort by delivering actionable insights for operational and production strategies."
+      company: "Mu Sigma Inc. (AI Wing of a Global Oil & Gas Enterprise)",
+      role: "Decision Scientist I - IV",
+      duration: "August 2022 - Present",
+      location: "Bengaluru, IN",
+      description: "Market Simulation Engine:\n• Designed and developed an enterprise simulation engine mimicking global Oil & Gas market dynamics to empower predictive, data-driven decision-making.\n• Engineered interactive manipulation levers for modeling complex 'what-if' scenarios and downstream demand imbalances.\n• Refactored legacy monolithic API features into highly scalable microservices, drastically optimizing maintainability.\n• Integrated robust data pipeline architectures for asynchronous data persistence and time-series generation.\n• Programmed complex data processing layers and domain-specific logic to guarantee output accuracy."
     },
     {
-      company: "Mu Sigma Inc.",
-      role: "Decision Scientist III",
-      duration: "January 2025 - December 2025",
-      location: "Bengaluru",
-      description: "Led the development of a Gen AI-powered chatbot leveraging GPT models with RAG (LangChain) to enable business users to access and analyze data conversationally, accelerating insights and decision-making.\nCollaborated with a cross-functional team for a global oil & gas client to build a market simulation tool that models, analyzes, and predicts current and future market scenarios using advanced data-driven simulations."
+      company: "Mu Sigma Inc. (US Telecom Operator)",
+      role: "Decision Scientist I - IV",
+      duration: "August 2022 - Present",
+      location: "Bengaluru, IN",
+      description: "Gen AI Analytics Tool:\n• Spearheaded AI-powered analytics engine using LangChain and GPT-4o mini, reducing turnaround time by 90%.\n• Implemented RAG frameworks and Prompt Engineering using a FAISS vector database for semantic search.\n\nWeb Apps & Process Automation:\n• Architected 5+ full-stack web applications for senior leadership, eliminating 85% of manual operations.\n• Engineered an enterprise no-code platform using Azure Logic Apps to centralize device enrollment and notifications.\n• Migrated legacy applications to Microsoft Azure Cloud Infrastructure (App Service, Key Vault, Azure DevOps).\n\nBI, Reporting Modernization & ETL:\n• Built an Enterprise-Grade Reporting Hub leveraging REST APIs for on-demand report generation.\n• Developed end-to-end distributed data extraction pipelines in Python reducing cycle times from 2 hours to 10 minutes."
     },
     {
-      company: "Mu Sigma Inc.",
-      role: "Decision Scientist II",
-      duration: "January 2024 - December 2024",
-      location: "Bengaluru, Karnataka, India",
-      description: "Contributed as both a developer and automation engineer for a major telecom client’s promotion and product management team, driving efficiency and innovation.\nDeveloped, orchestrated, and automated end-to-end processes to deliver various business reports via APIs to enterprise systems, enhancing data accuracy, accessibility, and decision-making speed.\nIndependently led and delivered multiple projects, ensuring seamless execution, stakeholder alignment, and tangible operational improvements."
-    },
-    {
-      company: "Mu Sigma Inc.",
-      role: "Decision Scientist I",
-      duration: "August 2022 - December 2023",
-      location: "Bangalore",
-      description: "Gained extensive experience in developing full-stack React-Node.js applications, focusing on building scalable, efficient, and high-performing web solutions.\nDesigned and implemented automation scripts to streamline diverse business processes, significantly improving operational efficiency."
-    },
-    {
-      company: "Zoho",
-      role: "Software Development Intern",
-      duration: "March 2022 - May 2022",
-      location: "Chennai, Tamil Nadu, India",
-      description: "Worked as a software development intern."
+      company: "Mu Sigma Inc. (Major FinTech / Payment Gateway)",
+      role: "Decision Scientist I - IV",
+      duration: "August 2022 - Present",
+      location: "Bengaluru, IN",
+      description: "Near Real-Time Data Streaming:\n• Leading architectural design of a highly scalable event delivery infrastructure utilizing Apache Kafka to safely stream 13,000+ messages per second.\n• Integrating custom Data Protection Modules within the streaming pipeline for access control, tokenization, and masking of sensitive PII/PCI-DSS data."
     }
+  ],
+  education: [
+    {
+      institution: "VEL TECH HIGH TECH DR. RANGARAJAN DR. SAKUNTHALA ENGINEERING COLLEGE",
+      degree: "Bachelor of Engineering (B.E.), Computer Science and Engineering",
+      duration: "2018 - 2022",
+      location: "Chennai, IN"
+    }
+  ],
+  awards: [
+    "IMPACT Award (2025): Commended for unwavering commitment and cross-functional excellence.",
+    "Spot Awards: Recognized multiple times for exceptional delivery, ownership, and technical problem-solving."
   ]
 };
